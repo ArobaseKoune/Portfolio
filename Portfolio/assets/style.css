@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    display: inline-flex;
+    flex-direction: column;
+    height: 40.625rem;
+    width: 13.4375rem;
+    border: solid;
+}
+
+.pdp {
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: .625rem;
+}
