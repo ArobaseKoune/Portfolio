@@ -1,18 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #121212;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .info {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    height: 40.625rem;
-    width: 13.4375rem;
-    border: solid;
+    padding: 40px 30px 30px 30px;
+    width: 230px;
+    border: solid 0.0625rem;
+    border-color: #383838;
+    background-color: #1E1E1F;
+    border-radius: .625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#nom {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+#profession {
+    color: white;
+    margin-top: 15px;
+    background-color: #2B2B2C;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.info p {
+    font-family: 'Montserrat', Courier, monospace;
 }
 
 .pdp {
-    height: 9.375rem;
-    width: 9.375rem;
-    border-radius: .625rem;
+  height: 9.375rem;
+  width: 9.375rem;
+  border-radius: 0.625rem;
+}
+
+.trait {
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-box img {
+    height: 18px;
+    width: 18px;
+}
+
+.icon-box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202022;
+    border: 1px solid;
+    border-color: #383838;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-info {
+    margin-left: 15px;
+}
+
+.contact-titre {
+    color: rgba(214, 214, 214, 0.7);
+    font-size: 13px;
+}
+
+.contact-link {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', Courier, monospace;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.contact-link p {
+    text-overflow: ellipsis;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    max-width: 230px;
+    overflow: hidden;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+}
+
+.contact-info a {
+    text-overflow: ellipsis;
+}
+
+.reseaux img {
+    height: 1.125rem;
+    width: 1.125rem;
+}
+
+.reseaux {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.sommaire {
+    background-color: #1E1E1F;
+    width: 78.125rem;
+    height: 70px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.0625rem;
+    border-color: #383838;
+    border-radius: 10px;
+}
+
+.nav-button {
+    background-color: #282829;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', Courier, monospace;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 500;
 }
