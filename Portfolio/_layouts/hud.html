@@ -6,68 +6,71 @@
         <title>Portfolio Amin</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     
     <body>
 
         <section class="info">
             <img class="pdp" src="../assets/pfp.jpg" alt="Dessin d'Amin"/>
-            <p id="nom/prenom">Amin Maghraoui</p>
+            <p id="nom">Amin Maghraoui</p>
             <p id="profession">Développeur Web</p>
             <div class="trait"></div>
 
-            <ul style="list-style-type: none;">
+            <ul class="info-box" style="list-style-type: none;">
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/message.png"/>
+                    <img src="../assets/mail.svg"/>
                     </div>
                     <div class="contact-info">
-                    <p class="contact-titre">Email</p>
+                    <p class="contact-titre">Email :</p>
                     <a href="mailto:amin.maghr@gmail.com" class="contact-link">amin.maghr@gmail.com</a>
                     </div>
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/telephone.png"/>
+                    <img src="../assets/phone.svg"/>
                     </div>
                     <div class="contact-info">
-                    <p class="contact-titre">Téléphone</p>
-                    <p>+33 6 60 34 22 62</p>
+                    <p class="contact-titre">Téléphone :</p>
+                    <p class="contact-link">+33 6 60 34 22 62</p>
                     </div>
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/calendar.png"/>
+                    <img src="../assets/calendar.svg"/>
                     </div>
                     <div class="contact-info">
-                    <p class="contact-titre">Date de Naissance</p>
-                    <p>18 aout 2003</p>
+                    <p class="contact-titre">Date de Naissance :</p>
+                    <p class="contact-link">18 aout 2003</p>
                     </div>
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/map-pin.png"/>
+                    <img src="../assets/map-pin.svg"/>
                     </div>
                     <div class="contact-info">
-                    <p class="contact-titre">Localisation</p>
-                    <p>Drancy, Seine-Saint-Denis, France</p>
+                    <p class="contact-titre">Localisation :</p>
+                    <p class="contact-link">Drancy,<br>Seine-Saint-Denis</p>
                     </div>
                 </li>
             </ul>
 
-                <div class="réseaux">
-                <a href="https://x.com/LeKoune_"><img src="../assets/twitter.png"></a>
-                <a href="https://www.instagram.com/lekoune_/"><img src="../assets/instagram.png"></a>
-                <a href="https://github.com/ArobaseKoune"><img src="../assets/github.png"></a>
+                <div class="reseaux">
+                <a href="https://x.com/LeKoune_"><img src="../assets/twitter.svg"></a>
+                <a href="https://www.instagram.com/lekoune_/"><img src="../assets/instagram.svg"></a>
+                <a href="https://github.com/ArobaseKoune"><img src="../assets/github.svg"></a>
                 </div>
-            </section>
+        </section>
 
         <nav class="sommaire">
 
-            <a href="index.markdown"><button type="button" id="nav-index" class="nav-button" alt="Acceuil">Acceuil</button></a>
-            <a href="a_propos.markdown"><button type="button" id="nav-about" class="nav-button" alt="A propos">À propos</button></a>
-            <a href="projets.markdown"><button type="button" id="nav-projets" class="nav-button" alt="Projets">Projets</button></a>
-            <a href="contact.markdown"><button type="button" id="nav-contact" class="nav-button" alt="Contact">Contact</button></a>
+            <a href="{{ '/' | relative_url }}"><button type="button" id="nav-index" class="nav-button" alt="Acceuil">Acceuil</button></a>
+            <a href="{{ '/about' | relative_url }}"><button type="button" id="nav-about" class="nav-button" alt="A propos">À propos</button></a>
+            <a href="{{ '/' | relative_url }}"><button type="button" id="nav-projets" class="nav-button" alt="Projets">Projets</button></a>
+            <a href="../contact.markdown"><button type="button" id="nav-contact" class="nav-button" alt="Contact">Contact</button></a>
         
         </nav>
 
