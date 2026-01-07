@@ -59,22 +59,35 @@
             </ul>
 
                 <div class="reseaux">
-                <a href="https://x.com/LeKoune_"><img src="../assets/twitter.svg"></a>
-                <a href="https://www.instagram.com/lekoune_/"><img src="../assets/instagram.svg"></a>
-                <a href="https://github.com/ArobaseKoune"><img src="../assets/github.svg"></a>
+                <a target="_blank" href="https://x.com/LeKoune_"><img src="../assets/twitter.svg"></a>
+                <a target="_blank" href="https://www.instagram.com/lekoune_/"><img src="../assets/instagram.svg"></a>
+                <a target="_blank" href="https://github.com/ArobaseKoune"><img src="../assets/github.svg"></a>
                 </div>
         </section>
 
-        <nav class="sommaire">
+        <div class="main-container">
 
-            <a href="{{ '/' | relative_url }}"><button type="button" id="nav-index" class="nav-button" alt="Acceuil">Acceuil</button></a>
-            <a href="{{ '/about' | relative_url }}"><button type="button" id="nav-about" class="nav-button" alt="A propos">À propos</button></a>
-            <a href="{{ '/' | relative_url }}"><button type="button" id="nav-projets" class="nav-button" alt="Projets">Projets</button></a>
-            <a href="../contact.markdown"><button type="button" id="nav-contact" class="nav-button" alt="Contact">Contact</button></a>
+            <nav class="sommaire">
+
+                    <a href="/" class="nav-button {% if page.url == '/' %}active{% endif %}">Accueil</a>
+                    <div class="trait-vertical"></div>
+                    <a href="/about/" class="nav-button {% if page.url == '/about/' %}active{% endif %}">Parcours</a>
+                    <div class="trait-vertical"></div>
+                    <a href="/project/" class="nav-button {% if page.url == '/project/' %}active{% endif %}">Projets</a>
+                    <div class="trait-vertical"></div>
+                    <a href="/resume/" class="nav-button {% if page.url == '/resume/' %}active{% endif %}">Contact</a>
+            
+            </nav>
+
+            <div class="separator"></div>
+
+            <section class="content">
+                <div class="markdown-content">
+                {{ content }}
+                </div>
+            </section>
+
+        </div>
         
-        </nav>
-
-        {{ content }}
-
     </body>
 </html>

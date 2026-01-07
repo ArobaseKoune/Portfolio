@@ -6,10 +6,13 @@
 body {
     display: flex;
     background-color: #121212;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 30px;
 }
 
 a {
-    color: inherit;
     text-decoration: none;
 }
 
@@ -24,7 +27,7 @@ a {
     border-radius: .625rem;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    align-self: center;
 }
 
 #nom {
@@ -136,25 +139,93 @@ a {
     gap: 15px;
 }
 
-.sommaire {
+.main-container {
     background-color: #1E1E1F;
-    width: 78.125rem;
-    height: 70px;
+    width: 60vw;
+    max-width: 1000px;
+    min-height: 500px;
     display: flex;
+    flex-direction: column;
     gap: 40px;
-    justify-content: center;
     align-items: center;
     border: solid 0.0625rem;
     border-color: #383838;
     border-radius: 10px;
 }
 
+.content {
+    padding-bottom: 50px;
+}
+
+.nav-button.active {
+    font-weight: 700;
+    color: rgb(156, 39, 176);
+}
+
+.nav-button:hover {
+    border-radius: 10px;
+    background-color: #454545;
+    border-radius: 0px 0px 10px 10px;
+}
+
 .nav-button {
-    background-color: #282829;
-    border: none;
-    color: white;
     font-family: 'Montserrat', Courier, monospace;
     padding: 20px 40px;
-    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trait-vertical {
+    width: 1px;
+    height: 30px;
+    background-color: #383838;
+}
+
+.sommaire {
+    justify-content: center;
+    background-color: #282829;
+    border-radius: 0px 0px 10px 10px;
+    border: 0px 1px 1px 1px solid;
+    border-color: #383838;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background-color: #454545;
+    width: 750px;
+    height: 1px;
+}
+
+.light-text a {
+    color: rgb(156, 39, 176);
     font-weight: 500;
+}
+
+.markdown-content {
+    color: white;
+    width: 800px;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+.mini-trait {
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 50px;
+    height: 8px;
+    background-color: rgb(156, 39, 176);
+}
+
+.light-text {
+  font-weight: 250;
+  text-align: justify;
 }

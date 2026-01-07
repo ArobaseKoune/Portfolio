@@ -30,7 +30,6 @@ twitter_username: LeKoune_
 github_username:  ArobaseKoune
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
@@ -53,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+kramdown:
+  hard_wrap: true
