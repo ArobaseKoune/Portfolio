@@ -15,7 +15,7 @@ permalink: /about/
 <div class="timeline">
 
 <div class="icon-box">
-<img src="{{ '/assets/diplome.svg' | relative_url }}"/>
+<img alt="Icone Diplome" src="{{ '/assets/diplome.svg' | relative_url }}"/>
 </div>
 <ol class="timeline-ol">
 <li class="timeline-li"><div class="container-li"><p class="titre-li">Formation Web@cademie</p><div class="info-li"><p class="date-li">Depuis novembre 2025</p><p>-</p><p class="lieu-li">Epitech Kremlin-bicêtre</p></div><p class="desc-li">Formation en développement web full-stack sur 2 ans (24 mois dont 14 en alternance), délivrant un titre d'Intégrateur-Développeur Web.</p></div></li>
@@ -36,7 +36,7 @@ permalink: /about/
 <div class="timeline">
 
 <div class="icon-box">
-<img src="{{ '/assets/work.svg' | relative_url }}"/>
+<img alt="Icone Travail" src="{{ '/assets/work.svg' | relative_url }}"/>
 </div>
 <ol class="timeline-ol">
 <li class="timeline-li"><div class="container-li"><p class="titre-li">Service civique</p><div class="info-li"><p class="date-li">De novembre 2024 à février 2025</p><p>-</p><p class="lieu-li">France Travail Pantin</p></div><p class="desc-li">Accompagnement des usagers dans leurs démarches administratives et numériques, avec un focus sur l'autonomie et l'orientation vers les services adaptés.</p></div></li>
