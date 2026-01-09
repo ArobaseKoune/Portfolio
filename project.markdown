@@ -6,6 +6,8 @@ permalink: /project/
 
 ---
 
+
+
 # Portfolio
 
 <br>
@@ -66,7 +68,9 @@ Voici certains de mes projets, réalisés pour mettre en pratique mes compétenc
 
 <br>
 
-<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0f66d47594865b81856ef3b7656fe5e2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="border-radius:20px;width:100%;border:0;overflow:hidden;margin-top:10px;"></iframe>
+
+<div id="ft-insta-app"></div><script type="module">import App from "https://cdn.fouita.com/public/instagram-feed.js?11";new App({target: document.getElementById("ft-insta-app"),props:{"settings":{"layout":"grid","source":"insta","selected":"uname","header":false,"autoplay":false,"zigzag":false,"cols":3,"cardHeight":265,"gap":1,"direction":"down","height":400,"bgColor":"","txtColor":"","ukey":"f471d6ae-06fe-488b-bf03-6677a07449cd"}}});</script><div id="ft-insta-brd"><a href="https://fouita.com/website-widgets/instagram-feed" target="_blank">Embed Instagram Feed</a><a href="https://fouita.com" target="_blank">with Fouita</a></div>
+
 
 <br>
 
