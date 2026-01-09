@@ -1,6 +1,8 @@
 ---
 
 layout: default
+title: Acceuil
+
 ---
 
 # À propos de moi
