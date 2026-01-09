@@ -33,7 +33,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <div class="competence">
 
 <div class="competence-container">
-<img class="competences-icon" src=src="{{ '/assets/design' | relative_url }}">
+<img class="competences-icon" src="{{ '/assets/design.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Web Design</p>
 <p>Design d'interfaces visuellement attractives pensées pour l'utilisateur</p>
@@ -41,7 +41,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 </div>
 
 <div class="competence-container">
-<img class="competences-icon" src="{{ '/assets/dev' | relative_url }}">
+<img class="competences-icon" src="{{ '/assets/dev.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Développement</p>
 <p>Création de sites web fonctionnels et performants</p>
@@ -49,7 +49,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 </div>
 
 <div class="competence-container">
-<img class="competences-icon" src="{{ '/assets/art' | relative_url }}">
+<img class="competences-icon" src="{{ '/assets/art.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Illustration</p>
 <p>Art numérique et création graphique</p>
@@ -57,7 +57,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 </div>
 
 <div class="competence-container">
-<img class="competences-icon" src="{{ '/assets/ui' | relative_url }}">
+<img class="competences-icon" src="{{ '/assets/ui.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">UI/UX</p>
 <p>Design d'expérience utilisateur optimale</p>
@@ -70,6 +70,6 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <br>
 
 <div class="ecole-logo">
-<a href="https://www.webacademie.org/" target="_blank"><img class="ecole-logo-solo" src="{{ '/assets/web_academie' | relative_url }}"></a>
-<a href="https://www.epitech.eu/" target="_blank"><img class="ecole-logo-solo" src="{{ '/assets/epitech' | relative_url }}"></a>
+<a href="https://www.webacademie.org/" target="_blank"><img class="ecole-logo-solo" src="{{ '/assets/web_academie.png' | relative_url }}"></a>
+<a href="https://www.epitech.eu/" target="_blank"><img class="ecole-logo-solo" src="{{ '/assets/epitech.png' | relative_url }}"></a>
 </div>
