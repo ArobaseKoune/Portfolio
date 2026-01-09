@@ -28,5 +28,5 @@ permalink: /contact/
 <input type="text" class="form-input" placeholder="Adresse mail">
 </div>
 <textarea name="message" class="form-area" placeholder="Votre message"></textarea>
-<button class="form-button" type="submit"><img class="send-icon" src="/assets/send.svg"> Envoyer le message</button>
+<button class="form-button" type="submit"><img class="send-icon" src=src="{{ '/assets/send' | relative_url }}"> Envoyer le message</button>
 </form>
