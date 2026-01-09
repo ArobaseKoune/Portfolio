@@ -33,7 +33,7 @@ Voici certains de mes projets, réalisés pour mettre en pratique mes compétenc
 
 <div class="proj-item">
 <a target="_blank" href="https://arobasekoune.github.io/KlivioV1/">
-<img class="img-proj" src="/assets/screenshot_klivio.png">
+<img class="img-proj" src="{{ '/assets/screenshot_klivio' | relative_url }}">
 <div class="overlay-text">
 <p>Reproduction de maquette figma avec responsive</p>
 </div>
@@ -42,7 +42,7 @@ Voici certains de mes projets, réalisés pour mettre en pratique mes compétenc
 
 <div class="proj-item">
 <a target="_blank" href="https://le-coin-de-koune.neocities.org/">
-<img class="img-proj" src="/assets/screenshot_portfolio.png">
+<img class="img-proj" src="{{ '/assets/screenshot_portfolio' | relative_url }}">
 <div class="overlay-text">
 <p>Premier test de site<br>pour me présenter</p>
 </div>
