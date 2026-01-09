@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title>Portfolio Amin</title>
         <meta charset="utf-8">
@@ -10,11 +8,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
-    
+
     <body>
 
         <section class="info">
-            <img class="pdp" src="../assets/pfp.jpg" alt="Dessin d'Amin"/>
+            <img class="pdp" src="{{ '/assets/pfp.jpg' | relative_url }}" alt="Dessin d'Amin"/>
             <p id="nom">Amin Maghraoui</p>
             <p id="profession">Développeur Web</p>
             <div class="trait"></div>
@@ -22,7 +20,7 @@
             <ul class="info-box" style="list-style-type: none;">
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/mail.svg"/>
+                    <img src="{{ '/assets/mail.svg' | relative_url }}"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Email :</p>
@@ -31,7 +29,7 @@
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/phone.svg"/>
+                    <img src="{{ '/assets/phone.svg' | relative_url }}"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Téléphone :</p>
@@ -40,7 +38,7 @@
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/calendar.svg"/>
+                    <img src="{{ '/assets/calendar.svg' | relative_url }}"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Date de Naissance :</p>
@@ -49,7 +47,7 @@
                 </li>
                 <li class="info-item">
                     <div class="icon-box">
-                    <img src="../assets/map-pin.svg"/>
+                    <img src="{{ '/assets/map-pin.svg' | relative_url }}"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Localisation :</p>
@@ -59,9 +57,9 @@
             </ul>
 
                 <div class="reseaux">
-                <a target="_blank" href="https://x.com/LeKoune_"><img src="../assets/twitter.svg"></a>
-                <a target="_blank" href="https://www.instagram.com/lekoune_/"><img src="../assets/instagram.svg"></a>
-                <a target="_blank" href="https://github.com/ArobaseKoune"><img src="../assets/github.svg"></a>
+                <a target="_blank" href="https://x.com/LeKoune_"><img src="{{ '/assets/twitter.svg' | relative_url }}"></a>
+                <a target="_blank" href="https://www.instagram.com/lekoune_/"><img src="{{ '/assets/instagram.svg' | relative_url }}"></a>
+                <a target="_blank" href="https://github.com/ArobaseKoune"><img src="{{ '/assets/github.svg' | relative_url }}"></a>
                 </div>
         </section>
 
@@ -69,14 +67,14 @@
 
             <nav class="sommaire">
 
-                    <a href="/" class="nav-button {% if page.url == '/' %}active{% endif %}">Accueil</a>
+                    <a href="{{ '/' | relative_url }}" class="nav-button {% if page.url == '/' %}active{% endif %}">Accueil</a>
                     <div class="trait-vertical"></div>
-                    <a href="/about/" class="nav-button {% if page.url == '/about/' %}active{% endif %}">Parcours</a>
+                    <a href="{{ '/about/' | relative_url }}" class="nav-button {% if page.url == '/about/' %}active{% endif %}">Parcours</a>
                     <div class="trait-vertical"></div>
-                    <a href="/project/" class="nav-button {% if page.url == '/project/' %}active{% endif %}">Projets</a>
+                    <a href="{{ '/project/' | relative_url }}" class="nav-button {% if page.url == '/project/' %}active{% endif %}">Projets</a>
                     <div class="trait-vertical"></div>
-                    <a href="/contact/" class="nav-button {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-            
+                    <a href="{{ '/contact/' | relative_url }}" class="nav-button {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+
             </nav>
 
             <div class="separator"></div>
