@@ -6,8 +6,6 @@ permalink: /project/
 
 ---
 
-
-
 # Portfolio
 
 <br>
