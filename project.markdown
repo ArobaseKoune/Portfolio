@@ -8,8 +8,6 @@ permalink: /project/
 
 # Portfolio
 
-<br>
-
 <div class="mini-trait"></div>
 
 <br>

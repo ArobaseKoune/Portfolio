@@ -7,6 +7,7 @@ title: Acceuil
 
 # À propos de moi
 
+<div class="mini-trait"></div>
 
 <br>
 
@@ -23,10 +24,12 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 
 <br>
 
-<div class="mini-trait"></div>
+<div class="separator separator-md"></div>
 <br>
 
 # Mes compétences
+
+<div class="mini-trait"></div>
 
 <br>
 
