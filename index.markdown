@@ -39,7 +39,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <img alt="Logo Web design" class="competences-icon" src="{{ '/assets/design.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Web Design</p>
-<p>Design d'interfaces visuellement attractives pensées pour l'utilisateur</p>
+Design d'interfaces visuellement attractives pensées pour l'utilisateur
 </div>
 </div>
 
@@ -47,7 +47,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <img alt="Icone Dev Web" class="competences-icon" src="{{ '/assets/dev.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Développement</p>
-<p>Création de sites web fonctionnels et performants</p>
+Création de sites web fonctionnels et performants
 </div>
 </div>
 
@@ -55,7 +55,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <img alt="Icone Dessin" class="competences-icon" src="{{ '/assets/art.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">Illustration</p>
-<p>Art numérique et création graphique</p>
+Art numérique et création graphique
 </div>
 </div>
 
@@ -63,7 +63,7 @@ Je développe des sites web full-stack en combinant créativité digitale et fon
 <img alt="Icone UI/UX" class="competences-icon" src="{{ '/assets/ui.svg' | relative_url }}">
 <div class="competence-texte">
 <p class="mini-titre">UI/UX</p>
-<p>Design d'expérience utilisateur optimale</p>
+Design d'expérience utilisateur optimale
 </div>
 </div>
 </div>

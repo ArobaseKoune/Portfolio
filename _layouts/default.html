@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <title>Portfolio Amin</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Portfolio d'Amin Maghraoui, développeur web full-stack spécialisé en HTML, CSS, JavaScript et PHP. Découvrez mes projets et mon parcours professionnel.">
+        <title>Portfolio Amin Maghraoui - Développeur Web</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ '/assets/icone_website.png' | relative_url }}">
     </head>
 
     <body>
 
-        <section class="info">
-            <img class="pdp" src="{{ '/assets/pfp.jpg' | relative_url }}" alt="Dessin d'Amin"/>
-            <p id="nom">Amin Maghraoui</p>
+        <aside class="info">
+            <img class="pdp" src="{{ '/assets/pfp.jpg' | relative_url }}" alt="Portrait illustré d'Amin Maghraoui" width="200" height="200"/>
+            <h1 id="nom">Amin Maghraoui</h1>
             <p id="profession">Développeur Web</p>
-            <div class="trait"></div>
+            <div class="trait" role="separator" aria-hidden="true"></div>
 
-            <ul class="info-box" style="list-style-type: none;">
+            <ul class="info-box">
                 <li class="info-item">
-                    <div class="icon-box">
-                    <img src="{{ '/assets/mail.svg' | relative_url }}"/>
+                    <div class="icon-box" aria-hidden="true">
+                    <img src="{{ '/assets/mail.svg' | relative_url }}" alt="" width="24" height="24"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Email :</p>
@@ -29,8 +31,8 @@
                     </div>
                 </li>
                 <li class="info-item">
-                    <div class="icon-box">
-                    <img src="{{ '/assets/phone.svg' | relative_url }}"/>
+                    <div class="icon-box" aria-hidden="true">
+                    <img src="{{ '/assets/phone.svg' | relative_url }}" alt="" width="24" height="24"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Téléphone :</p>
@@ -38,17 +40,17 @@
                     </div>
                 </li>
                 <li class="info-item">
-                    <div class="icon-box">
-                    <img src="{{ '/assets/calendar.svg' | relative_url }}"/>
+                    <div class="icon-box" aria-hidden="true">
+                    <img src="{{ '/assets/calendar.svg' | relative_url }}" alt="" width="24" height="24"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Date de Naissance :</p>
-                    <p class="contact-link">18 aout 2003</p>
+                    <p class="contact-link"><time datetime="2003-08-18">18 août 2003</time></p>
                     </div>
                 </li>
                 <li class="info-item">
-                    <div class="icon-box">
-                    <img src="{{ '/assets/map-pin.svg' | relative_url }}"/>
+                    <div class="icon-box" aria-hidden="true">
+                    <img src="{{ '/assets/map-pin.svg' | relative_url }}" alt="" width="24" height="24"/>
                     </div>
                     <div class="contact-info">
                     <p class="contact-titre">Localisation :</p>
@@ -57,34 +59,38 @@
                 </li>
             </ul>
 
-                <div class="reseaux">
-                <a target="_blank" href="https://x.com/LeKoune_"><img src="{{ '/assets/twitter.svg' | relative_url }}"></a>
-                <a target="_blank" href="https://www.instagram.com/lekoune_/"><img src="{{ '/assets/instagram.svg' | relative_url }}"></a>
-                <a target="_blank" href="https://github.com/ArobaseKoune"><img src="{{ '/assets/github.svg' | relative_url }}"></a>
-                </div>
-        </section>
+            <div class="reseaux">
+                <a target="_blank" rel="noopener noreferrer" href="https://x.com/LeKoune_" aria-label="Profil Twitter d'Amin Maghraoui">
+                    <img src="{{ '/assets/twitter.svg' | relative_url }}" alt="Twitter" width="32" height="32">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lekoune_/" aria-label="Profil Instagram d'Amin Maghraoui">
+                    <img src="{{ '/assets/instagram.svg' | relative_url }}" alt="Instagram" width="32" height="32">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/ArobaseKoune" aria-label="Profil GitHub d'Amin Maghraoui">
+                    <img src="{{ '/assets/github.svg' | relative_url }}" alt="GitHub" width="32" height="32">
+                </a>
+            </div>
+        </aside>
 
         <div class="main-container">
 
-            <nav class="sommaire">
-
-                    <a href="{{ '/' | relative_url }}" class="nav-button {% if page.url == '/' %}active{% endif %}">Accueil</a>
-                    <div class="trait-vertical"></div>
-                    <a href="{{ '/about/' | relative_url }}" class="nav-button {% if page.url == '/about/' %}active{% endif %}">Parcours</a>
-                    <div class="trait-vertical"></div>
-                    <a href="{{ '/project/' | relative_url }}" class="nav-button {% if page.url == '/project/' %}active{% endif %}">Projets</a>
-                    <div class="trait-vertical"></div>
-                    <a href="{{ '/contact/' | relative_url }}" class="nav-button {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-
+            <nav class="sommaire" aria-label="Navigation principale">
+                <a href="{{ '/' | relative_url }}" class="nav-button {% if page.url == '/' %}active{% endif %}">Accueil</a>
+                <div class="trait-vertical" role="separator" aria-hidden="true"></div>
+                <a href="{{ '/about/' | relative_url }}" class="nav-button {% if page.url == '/about/' %}active{% endif %}">Parcours</a>
+                <div class="trait-vertical" role="separator" aria-hidden="true"></div>
+                <a href="{{ '/project/' | relative_url }}" class="nav-button {% if page.url == '/project/' %}active{% endif %}">Projets</a>
+                <div class="trait-vertical" role="separator" aria-hidden="true"></div>
+                <a href="{{ '/contact/' | relative_url }}" class="nav-button {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
             </nav>
 
-            <div class="separator"></div>
+            <div class="separator" role="separator" aria-hidden="true"></div>
 
-            <section class="content">
+            <main class="content">
                 <div class="markdown-content">
                 {{ content }}
                 </div>
-            </section>
+            </main>
 
         </div>
 
