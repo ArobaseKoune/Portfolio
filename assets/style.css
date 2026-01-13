@@ -52,7 +52,7 @@ a {
     align-self: flex-start;
 }
 
-#nom {
+h1#nom {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
